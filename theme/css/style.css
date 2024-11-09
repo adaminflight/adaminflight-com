@@ -1,0 +1,42 @@
+/* Darker theme */
+html, body {
+    height: 100%; /* Ensure the body takes full height of the viewport */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a; /* Dark background close to black */
+    color: #e0e0e0; /* Light grey text for readability */
+}
+
+.navbar {
+    background-color: #222222; /* Slightly lighter than body for contrast */
+}
+
+.btn-outline-light {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.btn-outline-light:hover {
+    color: #1a1a1a;
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+img {
+    border: 2px solid #333333; /* Optional: border around the image for better contrast */
+    border-radius: 8px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #222222;
+    color: #e0e0e0;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
